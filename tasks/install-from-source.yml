@@ -17,12 +17,14 @@
     - build-essential
     - zlib1g-dev
     - libssl-dev
+    - libssl1.0-dev
+    - openssl
     - libyaml-dev
     - libreadline6-dev
     - zlib1g-dev
     - libncurses5-dev
     - libffi-dev
-    - libgdbm3
+    - libgdbm5
     - libgdbm-dev
   when: ansible_os_family == 'Debian'
 
